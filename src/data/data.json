@@ -1,0 +1,77 @@
+{
+    "contact": {
+        "address": {
+            "street_address": "Apt 123, Business Bay, Bahria Town, Phase VIII, Islamabad",
+            "country": "Pakistan"
+        },
+        "phone": [
+            "+92 333 524 5204",
+            "+92 333 524 5205"
+        ],
+        "email": "homefinesse@gmail.com"
+    },
+    "footer_heading": "Home Finesse",
+    "footer_content": "We offer a wide range of services including Architectural Design and Planning, Construction, Real Estate Advisory and Procurement.",
+    "footer_links": [
+        {
+            "text": "About Us",
+            "href": "#home"
+        },
+        {
+            "text": "Services",
+            "href": "#services"
+        },
+        {
+            "text": "Gallery",
+            "href": "#gallery"
+        },
+        {
+            "text": "Contact Us",
+            "href": "#footer"
+        }
+    ],
+    "services": [
+        {
+            "icon": "fa fa-wordpress",
+            "name": "Architecture",
+            "text": "We provide a wide variety of services including feasibility, design and preparation of construction documents, getting them approved from relevant regulatory authorities."
+        },
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "Construction",
+            "text": "Building of new structures, including site preparation, as well as additions and modifications to existing ones."
+        },
+        {
+            "icon": "fa fa-cloud-download",
+            "name": "Real Estate",
+            "text": "We offer the best possible assistance in buying and selling land, home and commercial buildings to our clients."
+        }
+    ],
+    "home_content": "Home Finesse is a Procure/Design/Build architecture firm working since 1998. We are fully equipped to handle projects from start to finish regardless of their unique requirements.",
+    "gallery": [
+        {
+            "name": "Renovation SD House",
+            "src": "/img/IMG_3120.jpg"
+        },
+        {
+            "name": "Renovation SD House",
+            "src": "/img/IMG_3121.jpg"
+        },
+        {
+            "name": "Renovation SD House",
+            "src": "/img/IMG_3122.jpg"
+        },
+        {
+            "name": "Renovation SD House",
+            "src": "/img/IMG_3124.jpg"
+        },
+        {
+            "name": "Renovation SD House",
+            "src": "/img/IMG_3125.jpg"
+        },
+        {
+            "name": "Renovation SD House",
+            "src": "/img/IMG_3126.jpg"
+        }
+    ]
+}

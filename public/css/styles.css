@@ -1,0 +1,135 @@
+html {
+  height: 100%;
+}
+
+body{
+  font-family:  MaisonNeue, sans-serif;
+  height: 100%;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 3rem;
+	color: #333;
+}
+h3 {
+	font-size: 2rem;
+	font-weight: 600;
+	color: #333;
+}
+
+.footer {
+  background: #929fba;
+  color: white;
+  
+}
+
+.footer-list ul {
+  list-style-type: none;
+  line-height: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.footer-list li a {
+  color: white;
+}
+.footer-list li a:hover {
+  text-decoration: none;
+  color: #c6cddb;
+  transition: color 0.2s;
+}
+
+.copyright {
+  background: #757f95;
+}
+
+#menu ul{
+
+  font-family:  MaisonNeue, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+
+}
+
+
+
+#menu .navbar-header a{
+
+  font-family:  MaisonNeue, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#menu .navbar-brand img{
+
+ padding-bottom: 1rem;
+}
+
+#services{
+
+  padding-top: 100px;
+  background: #EBEBED;
+  
+  
+
+}
+
+#services .service-desc{
+  font-size: 1rem;
+  color: #777;
+    font-weight: 400;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+#home{
+
+  margin-top: 1rem;
+  
+  background-image: url(../img/background.jpg);
+  
+  width: 100vw;  
+  height : 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.home-content{
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: right;
+  margin-right: 0;
+  margin-top: 5rem;
+}
+
+#gallery{
+  margin-top: 5%;
+  padding-top: 100px;
+  background: #EBEBED;
+  
+}
+
+ .gallery-items{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 0;
+    
+}
+
+.img-size{
+  max-width: 100%;
+  max-height: auto;
+  display: block; /* remove extra space below image */
+}
+
+
+
+
+
