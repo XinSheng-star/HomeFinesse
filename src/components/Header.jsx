@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 
 function Header() {
@@ -10,31 +11,31 @@ function Header() {
       <div className="container">
         <div className="navbar-header">
           <a className="navbar-brand" href="#page-top">
-            <img src={process.env.PUBLIC_URL + '/img/home_logo.jpg'}  alt="Logo" width="60" class="d-inline-block align-middle mr-2"></img>
+            <img src={process.env.PUBLIC_URL + '/img/home_logo.jpg'}  alt="Logo" width="60" className="d-inline-block align-middle mr-2"></img>
             <span >home finesse</span>
           </a>
         </div>
 
         <ul className="nav navbar-nav navbar-right">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">
+          <li className="nav-item">
+            <Link to="/" className="nav-link" >
               Home
-            </a>
+              </Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services">
+          <li className="nav-item">
+          <Link to="/services" className="nav-link" >
               Services
-            </a>
+            </Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#gallery">
+          <li className="nav-item">
+          <Link to="/gallery" className="nav-link" >
               Gallery
-            </a>
+            </Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#footer">
+          <li className="nav-item">
+          <Link to="/nopage" className="nav-link" >
               Contact Us
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

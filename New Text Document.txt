@@ -1,0 +1,9 @@
+,
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+
+
+
+"homepage": "http://XinSheng-star.github.io/HomeFinesse",
+
+33.522906, 73.093653

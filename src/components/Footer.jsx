@@ -16,7 +16,7 @@ function Footer(props) {
           {/* row 1 - col 2 - Important Links */}
 
 
-          <hr class="clearfix w-100 d-md-none"></hr>
+          <hr className="clearfix w-100 d-md-none"></hr>
           <div className="col-md-3 my-md-0 my-2 footer-list">
             <h4>Links</h4>
             <ul>
@@ -32,7 +32,7 @@ function Footer(props) {
 
            {/* row 1 - col 3 - Contact Info */}
 
-          <hr class="clearfix w-100 d-md-none"></hr>
+          <hr className="clearfix w-100 d-md-none"></hr>
           <div className="col-md-3 my-md-0 my-2 footer-list">
             <h4>Contact Us</h4>
             <ul>
